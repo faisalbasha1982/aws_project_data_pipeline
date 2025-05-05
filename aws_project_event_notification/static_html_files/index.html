@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Announcement System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Event Announcement System</h1>
+
+  <section>
+    <h2>Subscribe to Event Alerts</h2>
+    <form id="subscribe-form">
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Create New Event</h2>
+    <form id="event-form">
+      <input type="text" id="title" placeholder="Event Title" required>
+      <input type="text" id="location" placeholder="Location" required>
+      <input type="datetime-local" id="date" required>
+      <button type="submit">Add Event</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Upcoming Events</h2>
+    <ul id="event-list"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
